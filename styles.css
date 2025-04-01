@@ -1,1 +1,79 @@
 /*  your css code here. If applicable */
+
+body, html{
+	background-color: #F6F6F6;
+	font-family: sans-serif;
+}
+
+main{
+	display: flex;
+	gap: 30px;
+}
+
+#left{
+	padding-left: 60px;
+}
+
+#left>img{
+	width: 250px;
+	margin-left: -10px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input{
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid gray;
+}
+
+p{
+	font-weight: 600;
+}
+
+#right{
+	width: 60%;
+	
+}
+
+#login{
+	margin-inline: auto;
+	background-color: blue;
+	color: white;
+	padding: 9px;
+	border: none;
+	border-radius: 8px;
+	width: 100%;
+}
+
+a{
+	text-align:center;
+	text-decoration: none;
+}
+
+hr{
+	border: 1px solid gray;
+	width: 100%;
+	margin: 0;
+}
+
+#newAcc{
+	margin-inline: auto;
+	background-color: green;
+	color: white;
+	padding: 9px;
+	border: none;
+	border-radius: 8px;
+	width: fit-content;
+}
+
+
+
